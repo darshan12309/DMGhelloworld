@@ -1,0 +1,7 @@
+--- 
+- 
+  name: DMG task
+  hosts: localhost
+  tasks: 
+    - name: Deploy Kubernetes Cluster
+      script: kube.sh
